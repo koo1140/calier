@@ -1,4 +1,4 @@
-# Calier
+# 🐙 Calier
 ### ~~~ My best code editor ~~~
 
 # 📦 F E A T U R E S:
