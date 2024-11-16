@@ -8,4 +8,4 @@
 * D A R K᲼᲼T H E M E D 🌙
 
 ## ~~~ preferably use latest version ~~~
-### [Try version 0.1.7](https://raw.githack.com/koo1140/calier/refs/heads/main/0.1.7/calier.html)
+### [Try version 0.1.8](https://raw.githack.com/koo1140/calier/refs/heads/main/0.1.8/calier.html)
