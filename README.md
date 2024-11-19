@@ -6,6 +6,7 @@
 * P R E V I E W᲼᲼P A N N E L 🪟
 * O P E N᲼᲼I N᲼᲼N E W᲼᲼T A B᲼᲼O R᲼᲼N E W᲼᲼W I N D O W 🪄
 * D A R K᲼᲼T H E M E D 🌙
+* T O G G L E  T H E M E 🦋
 
 ## ~~~ preferably use latest version ~~~
-### [Try version 0.1.8](https://raw.githack.com/koo1140/calier/refs/heads/main/0.1.8/calier.html)
+### [Try version 0.1.9](https://raw.githack.com/koo1140/calier/refs/heads/main/0.1.9/calier.html)
