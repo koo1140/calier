@@ -10,7 +10,7 @@
 
 # 🤖 AUTOMATIONS:
 * auto saves code to browser and loads back
-* auto detects certain erros (hover line number to see
+* auto detects certain erros (hover line number to see)
 * auto loads and saves extensions to browser
 
 # 🧩 How to use extensions:
