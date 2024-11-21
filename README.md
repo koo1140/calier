@@ -3,7 +3,7 @@
 ### ~~~ My best code editor ~~~
 
 ## ~~~ preferably use latest version ~~~
-### [Try version 0.2.2](https://raw.githack.com/koo1140/calier/refs/heads/main/0.2.2/calier.html)
+### [Try version 0.2.3](https://raw.githack.com/koo1140/calier/refs/heads/main/0.2.3/calier.html)
 
 # 📦 F E A T U R E S:
 * E X T E N S I O N S᲼᲼S Y S T E M 🔌
