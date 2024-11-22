@@ -12,12 +12,14 @@
 * D A R K᲼᲼T H E M E D 🌙
 * T O G G L E᲼᲼T H E M E 🦋
 * A I᲼᲼P L A Y G R O U N D 🤖
+* M A G I C᲼᲼B U T T O N᲼᲼✨
 
 # 🤖 AUTOMATIONS:
 * auto saves code to browser and loads back
 * auto detects certain erros (hover line number to see)
 * auto loads and saves extensions to browser
 * ai powered code generator
+* select code, type an instruction and get code, and more
 
 # 🧩 How to use extensions:
 * step 1. Click 🔌Extensions button to open the management pannel.
