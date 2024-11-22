@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🐙Calier - Loading</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #333;
+            color: #fff;
+        }
+        h1 {
+            font-size: 1.5em;
+            color: #ccc;
+        }
+    </style>
+
+</head>
+<body>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ldrs/dist/auto/trefoil.js"></script>
+<div style="text-align:center;margin:auto;">
+  <h1 style="margin-bottom:20px;">Calier is now loading up! Please wait a few moments..</h1>
+  <l-trefoil
+    size="100"
+    stroke="10"
+    stroke-length="0.30"
+    bg-opacity="0.1"
+    speed="1.4"
+    color="white" 
+  >
+</div>
+
+    <script>
+        // Correct API URL for the repository
+        const githubApiUrl = 'https://api.github.com/repos/koo1140/calier/contents/';
+
+        fetch(githubApiUrl)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                // Extract and sort all valid version directories
+                const versions = data
+                    .filter(file => file.type === 'dir' && /^\d+\.\d+\.\d+$/.test(file.name))
+                    .map(file => file.name) // Extract just the version names
+                    .sort((a, b) => {
+                        // Convert version strings (e.g., "0.2.4") to padded numeric strings (e.g., "024")
+                        const versionA = a.split('.').map(num => num.padStart(2, '0')).join('');
+                        const versionB = b.split('.').map(num => num.padStart(2, '0')).join('');
+                        return Number(versionB) - Number(versionA); // Sort by descending numeric order
+                    });
+
+                // Get the latest version
+                const latestVersion = versions[0];
+
+                // Redirect to the latest version URL
+                const url = `https://raw.githack.com/koo1140/calier/main/${latestVersion}/calier.html`;
+                window.setTimeout(function() { window.location.href = url; }, 5000);
+            })
+            .catch(error => {
+                console.error('Error fetching data:', error);
+                document.body.innerHTML = '<h1>Error: Unable to fetch the latest version. Please try again later.</h1>';
+            });
+    </script>
+</body>
+</html>
