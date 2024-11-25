@@ -23,7 +23,7 @@
   * A sleek dark theme to reduce eye strain.  
 
 * **T O G G L E᲼᲼T H E M E 🦋**  
-  * Switch between dark and light themes effortlessly.  
+  * Switch between dark and light themes for preview effortlessly.  
 
 * **A I᲼᲼P L A Y G R O U N D 🤖**  
   * Enhanced with a better user experience.  
@@ -31,7 +31,7 @@
   * Responses are now selectable for easier copying and sharing.  
 
 * **M A G I C᲼᲼B U T T O N᲼᲼✨**  
-  * Instantly perform magical actions with one click.  
+  * Instantly perform magical actions with one click by AI Copilot.  
 
 ---
 
