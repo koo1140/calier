@@ -1,5 +1,6 @@
 ![](https://raw.githubusercontent.com/koo1140/calier/refs/heads/main/octopus.png)
 # 🐙 Calier
+<a href="https://discord.gg/drPWBDpjES"><img src="https://adthoughtsglobal.github.io/featured%20sections/NovaCore.png" height="30"></a>
 ### ~~~ My best code editor ~~~
 
 ## ~~~ preferably use latest version ~~~
