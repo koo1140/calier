@@ -7,6 +7,9 @@
 ### [Load latest version automatically](https://raw.githack.com/koo1140/calier/refs/heads/main/calier_loader.html)  
 
 # 📦 F E A T U R E S:  
+* **S E T T I N G S** ⚙️
+  * Configure AI temperature.
+
 * **E X T E N S I O N S᲼᲼S Y S T E M 🔌**  
   * Add, enable, and manage extensions easily.  
   * Automatically loads and saves extensions in the browser.  
